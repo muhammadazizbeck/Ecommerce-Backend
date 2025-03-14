@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'cart',
     'users',
     'market',
+    'order',
 
     #external
     'drf_yasg',
