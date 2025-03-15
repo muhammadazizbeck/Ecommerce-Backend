@@ -31,7 +31,7 @@ class ReviewCreateAPIView(APIView):
 
 
 class ReviewUpdateAPIView(APIView):
-    permission_classes = [permissions.Authenticated] 
+    permission_classes = [permissions.IsAuthenticated] 
 
     def put(self, request, review_id):
         try:
