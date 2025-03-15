@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'users',
     'market',
     'order',
+    'review',
 
     #external
     'drf_yasg',
